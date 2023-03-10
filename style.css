@@ -1,0 +1,76 @@
+/* Write some CSS below */
+
+body {
+    background: #f9f5ee;
+    color: #1f1d1e;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.image-size{
+    border-radius: 30px;
+    height: 150px;
+    width: 150px; 
+    object-fit: cover;
+}
+
+a{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #ea941a;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+a:hover{
+    background-color: #ffffff ;
+    color: #ea941a;
+    font-family: 'Montserrat';
+}  
+
+h1, h2, h3 {
+    font-family: 'Montserrat';
+}
+  
+h1 {
+    color: #ea941a;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #ea941a;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+
+.container{
+    margin: 10px auto;
+    width: 700px;
+}    
+
+.card-white{
+    background-color: rgb(245, 227, 245);
+    color: #2e2d2d;
+    box-shadow: Opx 10px 20px rgba(red, green, blue, alpha);
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px auto;
+    width: 700px;
+    text-align: justify;
+    text-align-last: center;
+    font-weight: normal;
+}
+
+ul{
+    text-align-last: left;
+}
+
+.text-space{
+    margin-bottom: 30px;
+}
